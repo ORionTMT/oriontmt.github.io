@@ -24,3 +24,9 @@ Adapted from [Jon Barron's academic website template](https://jonbarron.info/).
 - [PointAction](https://arxiv.org/abs/2606.03943), first submitted June 2, 2026.
 
 The cleanup removes assets identical to the inherited Jon Barron template (commit `d03c3e2`), including its unrelated project pages and bibliography. Personal photos, research assets, and site verification are retained. Local `paper_note.*` files are left untouched.
+
+## Typography and design
+
+The layout takes cues from the restrained typography and image-led presentation of [John Pawson](https://www.johnpawson.com/) and the clear editorial structure of [Jasper Morrison](https://jaspermorrison.com/studio/biography). It uses a single neutral background, square images, and a shared alignment grid.
+
+Instrument Sans (regular, medium, and semibold) is served locally from `fonts/`. The font is available under the SIL Open Font License; its license is included in `fonts/OFL-InstrumentSans.txt`. No external font request is required.
