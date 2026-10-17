@@ -1,206 +1,108 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Mutian Tong">
+  <meta name="description" content="Mutian Tong's research in 3D/4D world modeling, video generation, and vision for embodied tasks.">
+  <title>Mutian Tong</title>
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+  <main>
+    <header class="profile">
+      <div class="bio">
+        <h1>Mutian Tong</h1>
+        <p>I'm Mutian Tong, an incoming CS PhD student at CIS, University of Pennsylvania. I'm currently a research assistant under the supervision of Professor <a href="https://jiataogu.me/">Jiatao Gu</a>. Previously, I completed my undergraduate studies at Columbia College, Columbia University in New York with a degree in Mathematics and Computer Science. I was fortunate enough to be advised by Professor <a href="https://www.cs.columbia.edu/~cxz/">Changxi Zheng</a> at the <a href="https://www.cs.columbia.edu/cg/">Columbia Computer Graphics Group</a>, where I also learned a lot from <a href="https://www.cs.columbia.edu/~rundi/">Dr. Rundi Wu</a>. My research interests include 3D/4D world modeling, video generation, and vision for embodied tasks.</p>
+        <p>You are welcome to contact me by <a href="mailto:mutiant@seas.upenn.edu">email</a>.</p>
+      </div>
+      <a class="portrait" href="images/profile5.jpg"><img src="images/profile5.jpg" alt="Mutian Tong" width="280" height="280"></a>
+    </header>
 
-    <title>Mutian Tong</title>
-
-    <meta name="author" content="Mutian Tong">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" type="text/css" href="stylesheet.css">
-    
-  </head>
-
-  <body>
-    <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-      <tr style="padding:0px">
-        <td style="padding:0px">
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr style="padding:0px">
-              <td style="padding:2.5%;width:63%;vertical-align:middle">
-                <p class="name" style="text-align: center;">
-                  Mutian Tong
-                </p>
-                <p>I'm Mutian Tong, an incoming CS PhD student at CIS, University of Pennsylvania. I'm currently a research assistant under the supervision of Professor <a href="https://jiataogu.me/">Jiatao Gu</a>. Previously, I finished my undergraduate study at Columbia College, Columbia University in New York with a degree in Mathematics and Computer Science. I was fortunate enough to be advised by Professor <a href="https://www.cs.columbia.edu/~cxz//">Changxi Zheng</a> at <a href="https://www.cs.columbia.edu/cg/">Columbia Computer Graphics Group</a>, where I also learnt a lot from <a href="https://www.cs.columbia.edu/~rundi/">Dr. Rundi Wu</a>. My research interestes include 3D/4D world modeling, video Generation, and vision for embodied tasks. <br> You are welcome to contact me at <a href="mailto:mutiant@seas.upenn.edu">email</a>
-
-                </p>
-                
-              </td>
-              <td style="padding:2.5%;width:37%;max-width:37%">
-                <a href="images/profile5.jpg"><img style="width:100%;max-width:100%;object-fit: cover;" alt="profile photo" src="images/profile5.jpg" class="hoverZoomLink"></a>
-              </td>
-            </tr>
-          </tbody></table>
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-              <tr>
-              <td style="padding:16px;width:100%;vertical-align:middle">
-                <h2>Research</h2>
-                <p>
-                </p>
-              </td>
-            </tr>
-          </tbody></table>
-          <table style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            
-    <tr onmouseout="cat4d_stop()" onmouseover="cat4d_start()" bgcolor="#ffffd0">
-      <td style="padding:16px;width:20%;vertical-align:middle">
-        <div class="one">
-          <div class="two" id='cat4d_image'><video  width=100% height=100% muted autoplay loop>
-          <source src="images/poinaction/pa.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-          </video></div>
-          <img src='images/poinaction/cover.png' width="160">
-        </div>
-        <script type="text/javascript">
-          function cat4d_start() {
-            document.getElementById('cat4d_image').style.opacity = "1";
-          }
-
-          function cat4d_stop() {
-            document.getElementById('cat4d_image').style.opacity = "0";
-          }
-          cat4d_stop()
-        </script>
-      </td>
-      <td style="padding:8px;width:80%;vertical-align:middle">
-      <span class="papertitle">PointAction: 3D Points as Universal Action Representations for Robot Control
-  </span>
+    <section aria-labelledby="research-heading">
+      <h2 id="research-heading">Research</h2>
+      <!-- Reverse chronological order by first arXiv submission date. -->
+      <article class="publication" data-date="2026-10-12">
+        <a class="preview" href="https://rayyoh.github.io/UniLAP/">
+          <img src="images/unilap.png" alt="UniLAP architecture for continuous latent action learning and cross-embodiment adaptation" loading="lazy">
         </a>
-        <br>
-        <strong>Mutian Tong*</strong>,
-        <a href="https://j-oyasumi.github.io/">Han Jiang*</a>,
-        <a href="https://fengq1a0.github.io/">Qiao Feng</a>,
-        <a href="https://lingjie0206.github.io/">Lingjie Liu</a>,
-        <a href="https://jiataogu.me/">Jiatao Gu</a>
-        
-        <br>
-        <em>In Submission</em>, 2026
-        <br>
-        <p></p>
-        <p></p>
-        <p>
-        PointAction bridges the gap between generative video models and robust robot control by jointly predicting RGB frames and dynamic 3D pointmaps, which serve as a universal, geometry-aware action interface.
-        </p>
-      </td>
-    </tr>
-    <tr onmouseout="cat4d_stop()" onmouseover="cat4d_start()">
-      <td style="padding:16px;width:20%;vertical-align:middle">
-        <div class="one">
-          <div class="two" id='cat4d_image'><video  width=100% height=100% muted autoplay loop>
-          <source src="images/SpatioTemporalLighting2.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-          </video></div>
-          <img src='images/sig252.png' width="160">
+        <div>
+          <h3><a href="https://arxiv.org/abs/2610.16969">UniLAP: A Unified Latent Action Policy for Cross-Embodiment Manipulation</a></h3>
+          <p class="authors"><a href="https://rayyoh.github.io/">Lei Yao</a>, <a href="https://fengq1a0.github.io/">Qiao Feng</a>, <strong>Mutian Tong</strong>, Qihao Yun, Lap-Pui Chau, <a href="https://lingjie0206.github.io/">Lingjie Liu</a></p>
+          <p class="venue"><em>arXiv</em>, 2026</p>
+          <p class="links"><a href="https://rayyoh.github.io/UniLAP/">project page</a> / <a href="https://arxiv.org/abs/2610.16969">arXiv</a></p>
+          <p>UniLAP learns a continuous latent action policy from action-free videos using flow matching, enabling adaptation across embodiments without requiring future frames at inference.</p>
         </div>
-        <script type="text/javascript">
-          function cat4d_start() {
-            document.getElementById('cat4d_image').style.opacity = "1";
-          }
+      </article>
 
-          function cat4d_stop() {
-            document.getElementById('cat4d_image').style.opacity = "0";
-          }
-          cat4d_stop()
-        </script>
-      </td>
-      <td style="padding:8px;width:80%;vertical-align:middle">
-      <span class="papertitle">Spatiotemporally Consistent Indoor Lighting Estimation with Diffusion Priors
-  </span>
+      <article class="publication" data-date="2026-09-28">
+        <a class="preview" href="https://arxiv.org/abs/2609.36295">
+          <img src="images/omnidream.png" alt="OmniDream turns a perspective video into a panoramic scene with spatial audio" loading="lazy">
         </a>
-        <br>
-        <strong>Mutian Tong</strong>,
-        <a href="https://www.cs.columbia.edu/~rundi/">Rundi Wu</a>,
-        <a href="https://www.cs.columbia.edu/~cxz/">Changxi Zheng</a>
-        
-        <br>
-        <em>SIGGRAPH</em>, 2025 
-        <br>
-        <a href="https://oriontmt.github.io/Sig25-4DLighting/">project page</a>
-        /
-        <a href="https://www.arxiv.org/abs/2508.08384">arXiv</a>
-        <p></p>
-        <p></p>
-        <p>
-        A method for recovering dynamic 3D indoor lighting from a video by learning a light field with help from a 2D diffusion model.
-        </p>
-      </td>
-    </tr>
+        <div>
+          <h3><a href="https://arxiv.org/abs/2609.36295">Enabling Immersive Audio-Visual Experience from Any Video</a></h3>
+          <p class="authors"><a href="https://zitonglan.github.io/">Zitong Lan</a>, <strong>Mutian Tong</strong>, <a href="https://jiataogu.me/">Jiatao Gu</a>, Mingmin Zhao</p>
+          <p class="venue"><em>arXiv</em>, 2026</p>
+          <p class="links"><a href="https://arxiv.org/abs/2609.36295">arXiv</a> / <a href="https://huggingface.co/spaces/CuriousAlien000/spatial-audio-360-demo">demo</a></p>
+          <p>OmniDream transforms a silent monocular video into an immersive panoramic experience with spatially aligned audio, using object-centric sound generation and physics-based acoustic simulation.</p>
+        </div>
+      </article>
 
-          
-					<table style="width:100%; margin:0 auto; border:0; border-spacing:0; padding:16px;"><tbody>
-            <tr>
-              <td>
-                <h2>Miscellanea</h2>
-              </td>
-            </tr>
-          </tbody></table>
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr>
-              <td align="center" style="padding:16px;width:20%;vertical-align:middle">
-						     <div class="colored-box" style="background-color: #edd892;">
-								 <h2>Teaching</h2>
-								 </div>
-              </td>
-              <td style="padding:8px;width:80%;vertical-align:center">
-                <a href="https://jiataogu.me/DeepGenerativeModels/">Teaching Assistant, CIS7000-3, Advanced Topics of Deep Generative Models, Fall 2025</a>
-                <br>
-                <a href="https://www.cs.columbia.edu/~cxz/teaching/w4167_s25/">Teaching Assistant, CS4167, Computer Animation, Spring 2025</a>
-                <br>
-                <a href="https://doc.sis.columbia.edu/subj/COMS/W4705-20251-001//">Teaching Assistant, CS4705, Natural Language Processing, Fall 2024</a>
-              </td>
-            </tr>
-            <tr>
-              <td align="center" style="padding:16px;width:20%;vertical-align:middle">
-						     <div class="colored-box" style="background-color: #479860;">
-								 <h2>Service</h2>
-								 </div>
-              </td>
-              <td style="padding:8px;width:80%;vertical-align:center">
-                Reviewer, IJCV
-                <br>
-                Reviewer, TVCG
-              </td>
-            </tr>
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;
-             margin-right:auto;margin-left:auto;">
-            <tbody>
-              <tr>
-                <td style="padding:16px;width:100%;vertical-align:middle">
-                  <ul>
-                    <li>
-                      I like listening to classical music when I'm at work or not;
-                      my favorite composers are Gustav Mahler and Franz Schubert.
-                    </li>
-                    <li>
-                      I'm also into hiking and exploring different national parks when I have time;
-                      my favorite NP is
-                      <a href="https://www.nps.gov/arch/index.htm">Arches</a>.
-                    </li>
-                  </ul>
-                </td>
-              </tr>
-            </tbody>
-          </table>
+      <article class="publication highlighted" data-date="2026-06-02">
+        <a class="preview animated" href="https://oriontmt.github.io/pointaction/">
+          <img src="images/poinaction/cover.png" alt="PointAction predicts RGB frames and dynamic 3D pointmaps for robot control" loading="lazy">
+          <video muted autoplay loop playsinline preload="none" aria-hidden="true">
+            <source src="images/poinaction/pa.mp4" type="video/mp4">
+          </video>
+        </a>
+        <div>
+          <h3><a href="https://arxiv.org/abs/2606.03943">PointAction: 3D Points as Universal Action Representations for Robot Control</a></h3>
+          <p class="authors"><strong>Mutian Tong*</strong>, <a href="https://j-oyasumi.github.io/">Han Jiang*</a>, <a href="https://fengq1a0.github.io/">Qiao Feng</a>, <a href="https://lingjie0206.github.io/">Lingjie Liu</a>, <a href="https://jiataogu.me/">Jiatao Gu</a></p>
+          <p class="venue"><em>arXiv</em>, 2026</p>
+          <p class="links"><a href="https://oriontmt.github.io/pointaction/">project page</a> / <a href="https://arxiv.org/abs/2606.03943">arXiv</a></p>
+          <p>PointAction bridges the gap between generative video models and robust robot control by jointly predicting RGB frames and dynamic 3D pointmaps, which serve as a universal, geometry-aware action interface.</p>
+          <p class="note">* Equal contribution.</p>
+        </div>
+      </article>
 
-          </tbody></table>
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr>
-              <td style="padding:0px">
-                <br>
-                <p style="text-align:right;font-size:small;">
-                  Thanks for the website template from <a href="https://jonbarron.info/">Jon Barron</a>.
-                </p>
-              </td>
-            </tr>
-          </tbody></table>
+      <article class="publication" data-date="2025-08-11">
+        <a class="preview animated" href="https://oriontmt.github.io/Sig25-4DLighting/">
+          <img src="images/sig252.png" alt="Spatiotemporally consistent indoor lighting estimation" loading="lazy">
+          <video muted autoplay loop playsinline preload="none" aria-hidden="true">
+            <source src="images/SpatioTemporalLighting2.mp4" type="video/mp4">
+          </video>
+        </a>
+        <div>
+          <h3><a href="https://arxiv.org/abs/2508.08384">Spatiotemporally Consistent Indoor Lighting Estimation with Diffusion Priors</a></h3>
+          <p class="authors"><strong>Mutian Tong</strong>, <a href="https://www.cs.columbia.edu/~rundi/">Rundi Wu</a>, <a href="https://www.cs.columbia.edu/~cxz/">Changxi Zheng</a></p>
+          <p class="venue"><em>SIGGRAPH</em>, 2025</p>
+          <p class="links"><a href="https://oriontmt.github.io/Sig25-4DLighting/">project page</a> / <a href="https://arxiv.org/abs/2508.08384">arXiv</a></p>
+          <p>A method for recovering dynamic 3D indoor lighting from a video by learning a light field with help from a 2D diffusion model.</p>
+        </div>
+      </article>
+    </section>
 
-          
-          
-        </td>
-      </tr>
-    </table>
-    
-  </body>
-  
+    <section class="miscellanea" aria-labelledby="miscellanea-heading">
+      <h2 id="miscellanea-heading">Miscellanea</h2>
+      <div class="misc-row">
+        <h3 class="colored-box teaching">Teaching</h3>
+        <ul>
+          <li><a href="https://jiataogu.me/DeepGenerativeModels/">Teaching Assistant, CIS7000-3, Advanced Topics of Deep Generative Models, Fall 2025</a></li>
+          <li><a href="https://www.cs.columbia.edu/~cxz/teaching/w4167_s25/">Teaching Assistant, CS4167, Computer Animation, Spring 2025</a></li>
+          <li><a href="https://doc.sis.columbia.edu/subj/COMS/W4705-20251-001/">Teaching Assistant, CS4705, Natural Language Processing, Fall 2024</a></li>
+        </ul>
+      </div>
+      <div class="misc-row">
+        <h3 class="colored-box service">Service</h3>
+        <ul><li>Reviewer, IJCV</li><li>Reviewer, TVCG</li></ul>
+      </div>
+      <ul class="interests">
+        <li>I like listening to classical music when I'm at work or not; my favorite composers are Gustav Mahler and Franz Schubert.</li>
+        <li>I'm also into hiking and exploring different national parks when I have time; my favorite national park is <a href="https://www.nps.gov/arch/index.htm">Arches</a>.</li>
+      </ul>
+    </section>
+    <footer>Website adapted from <a href="https://jonbarron.info/">Jon Barron's template</a>.</footer>
+  </main>
+</body>
 </html>
